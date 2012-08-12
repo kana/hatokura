@@ -1,3 +1,5 @@
+require 'bundler/setup'
+
 module Hatokura
   class << self
     def file_name_from_identifier(identifier)
