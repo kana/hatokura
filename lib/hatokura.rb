@@ -162,6 +162,7 @@ module Hatokura
   end
 
   [
+    :Card,
     :VERSION,
   ].each do |identifier|
     autoload identifier, "hatokura/#{file_name_from_identifier(identifier)}"
