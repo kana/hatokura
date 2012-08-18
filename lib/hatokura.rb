@@ -163,6 +163,7 @@ module Hatokura
 
   [
     :Card,
+    :Player,
     :VERSION,
     :Zone,
   ].each do |identifier|
