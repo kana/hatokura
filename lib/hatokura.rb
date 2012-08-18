@@ -163,6 +163,7 @@ module Hatokura
 
   [
     :Card,
+    :CursePile,
     :Exile,
     :Field,
     :Graveyard,
