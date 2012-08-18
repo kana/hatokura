@@ -168,6 +168,7 @@ module Hatokura
     :Hand,
     :Library,
     :Player,
+    :Territory,
     :VERSION,
     :Zone,
   ].each do |identifier|
