@@ -171,6 +171,7 @@ module Hatokura
     :Library,
     :Market,
     :Player,
+    :PrincessPile,
     :Stack,
     :Supply,
     :Territory,
