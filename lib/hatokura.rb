@@ -168,6 +168,7 @@ module Hatokura
     :Graveyard,
     :Hand,
     :Library,
+    :Market,
     :Player,
     :Stack,
     :Territory,
