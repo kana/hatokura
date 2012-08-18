@@ -164,6 +164,7 @@ module Hatokura
   [
     :Card,
     :Field,
+    :Graveyard,
     :Hand,
     :Library,
     :Player,
