@@ -163,6 +163,7 @@ module Hatokura
 
   [
     :Card,
+    :Library,
     :Player,
     :VERSION,
     :Zone,
