@@ -164,6 +164,7 @@ module Hatokura
   [
     :Card,
     :VERSION,
+    :Zone,
   ].each do |identifier|
     autoload identifier, "hatokura/#{file_name_from_identifier(identifier)}"
   end
