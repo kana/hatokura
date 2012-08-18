@@ -171,6 +171,7 @@ module Hatokura
     :Market,
     :Player,
     :Stack,
+    :Supply,
     :Territory,
     :VERSION,
     :Zone,
