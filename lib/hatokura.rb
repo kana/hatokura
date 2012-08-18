@@ -169,6 +169,7 @@ module Hatokura
     :Hand,
     :Library,
     :Player,
+    :Stack,
     :Territory,
     :VERSION,
     :Zone,
