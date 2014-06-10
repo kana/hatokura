@@ -1,5 +1,4 @@
 require 'bundler/setup'
-require "hatokura/version"
 
 module Hatokura
   class << self
