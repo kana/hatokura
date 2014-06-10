@@ -1,29 +1,31 @@
 # Hatokura
 
-TODO: Write a gem description
+## Abstract
 
-## Installation
+A Ruby gem to emulate [Heart of Crown](http://hatokura.flipflops.jp/),
+an exciting variant of deck-building game
+produced by [FLIPFLOPs](http://flipflops.jp/).
 
-Add this line to your application's Gemfile:
+Note that this gem provides only API to emulate a game of Heart of Crown.
+It does not provide any UI to play actual games.
 
-    gem 'hatokura'
 
-And then execute:
 
-    $ bundle
 
-Or install it yourself as:
+## License
 
-    $ gem install hatokura
+This gem is released under the terms of MIT license.
+See the LICENSE file for the details.
 
-## Usage
 
-TODO: Write usage instructions here
 
-## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/hatokura/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+## Author
+
+* [Kana Natsuno](http://whileimautomaton.net/)
+  (also known as [@kana1](http://twitter.com/kana1))
+
+
+
+
+<!-- vim: set expandtab shiftwidth=4 softtabstop=4 textwidth=78 : -->
