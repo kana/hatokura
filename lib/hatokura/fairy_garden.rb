@@ -1,24 +1,20 @@
 module Hatokura
   module FairyGarden
     class FarmVillage
-      def initialize()
-        @name = '農村'
-        @cost = 1
-        @link = 1
-        @main_type = :land
-        @authority_point = -2
-        @played_ability = Proc.new {[]}  # TODO: List moves.
-      end
+      Name = '農村'
+      Cost = 1
+      Link = 1
+      MainType = :land
+      AuthorityPoint = -2
+      PlayedAbility = Proc.new {[]}  # TODO: List moves.
     end
 
     class NoviceMaid
-      def initialize()
-        @name = '見習い侍女'
-        @cost = 2
-        @link = nil
-        @main_type = :authority
-        @authority_point = -2
-      end
+      Name = '見習い侍女'
+      Cost = 2
+      Link = nil
+      MainType = :authority
+      AuthorityPoint = -2
     end
   end
 end

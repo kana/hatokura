@@ -11,7 +11,18 @@ module Hatokura
   # Original term: カード
   class Card
     class << self
-      alias_method :characteristic, :attr_accessor
+      def constant_name(name)
+        name.to_s.gsub(/([a-z])([a-z]*)/) {$1.upcase + $2}
+      end
+
+      def characteristic name
+        instance_eval <<-"END"
+          define_method :#{name} do
+            self.class.const_get(:#{constant_name(name)})
+          end
+        END
+      end
+
       alias_method :status, :attr_accessor
     end
 
