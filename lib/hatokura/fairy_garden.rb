@@ -32,5 +32,13 @@ module Hatokura
       MainType = :authority
       AuthorityPoint = 3
     end
+
+    class Duke
+      Name = '公爵'
+      Cost = 8
+      Link = nil
+      MainType = :authority
+      AuthorityPoint = 6
+    end
   end
 end
