@@ -24,5 +24,13 @@ module Hatokura
       MainType = :authority
       AuthorityPoint = 2
     end
+
+    class Congressman
+      Name = '議員'
+      Cost = 5
+      Link = nil
+      MainType = :authority
+      AuthorityPoint = 3
+    end
   end
 end
