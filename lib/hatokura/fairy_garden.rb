@@ -16,5 +16,13 @@ module Hatokura
       MainType = :authority
       AuthorityPoint = -2
     end
+
+    class CourtMaid
+      Name = '宮廷侍女'
+      Cost = 3
+      Link = nil
+      MainType = :authority
+      AuthorityPoint = 2
+    end
   end
 end
