@@ -9,6 +9,14 @@ module Hatokura
       PlayedAbility = Proc.new {[]}  # TODO: List moves.
     end
 
+    class City
+      Name = '都市'
+      Cost = 3
+      Link = 1
+      MainType = :land
+      PlayedAbility = Proc.new {[]}  # TODO: List moves.
+    end
+
     class NoviceMaid
       Name = '見習い侍女'
       Cost = 2
