@@ -18,7 +18,7 @@ module Hatokura
       def characteristic name
         instance_eval <<-"END"
           define_method :#{name} do
-            self.class.const_get(:#{constant_name(name)})
+            self.class::#{constant_name(name)}
           end
         END
       end
