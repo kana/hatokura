@@ -1,6 +1,6 @@
 module Hatokura
   module FairyGarden
-    class FarmVillage
+    class FarmVillage < Card
       Name = '農村'
       Cost = 1
       Link = 1
@@ -9,7 +9,7 @@ module Hatokura
       PlayedAbility = Proc.new {[]}  # TODO: List moves.
     end
 
-    class City
+    class City < Card
       Name = '都市'
       Cost = 3
       Link = 1
@@ -17,7 +17,7 @@ module Hatokura
       PlayedAbility = Proc.new {[]}  # TODO: List moves.
     end
 
-    class BigCity
+    class BigCity < Card
       Name = '大都市'
       Cost = 6
       Link = 1
@@ -25,7 +25,7 @@ module Hatokura
       PlayedAbility = Proc.new {[]}  # TODO: List moves.
     end
 
-    class NoviceMaid
+    class NoviceMaid < Card
       Name = '見習い侍女'
       Cost = 2
       Link = nil
@@ -33,7 +33,7 @@ module Hatokura
       AuthorityPoint = -2
     end
 
-    class CourtMaid
+    class CourtMaid < Card
       Name = '宮廷侍女'
       Cost = 3
       Link = nil
@@ -41,7 +41,7 @@ module Hatokura
       AuthorityPoint = 2
     end
 
-    class Congressman
+    class Congressman < Card
       Name = '議員'
       Cost = 5
       Link = nil
@@ -49,7 +49,7 @@ module Hatokura
       AuthorityPoint = 3
     end
 
-    class Duke
+    class Duke < Card
       Name = '公爵'
       Cost = 8
       Link = nil
