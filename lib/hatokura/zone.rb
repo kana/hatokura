@@ -25,5 +25,18 @@ module Hatokura
     protected def cards
       @cards
     end
+
+    def put!(card, position)
+      # TODO: Change the revealed status of a card if necessary.
+      # For now, all cards are treated as revealed.
+      case position
+      when :top
+        cards.unshift(card)
+      when :bottom
+        cards.push(card)
+      else
+        throw ArgumentError.new("Invalid position #{position} to put a card")
+      end
+    end
   end
 end
