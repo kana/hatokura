@@ -12,7 +12,7 @@ module Hatokura
   class Card
     class << self
       def constant_name(name)
-        name.to_s.gsub(/([a-z])([a-z]*)/) {$1.upcase + $2}
+        name.to_s.gsub(/_?([a-z])([a-z]*)/) {$1.upcase + $2}
       end
 
       def characteristic name
