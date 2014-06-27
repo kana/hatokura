@@ -1,5 +1,9 @@
 module Hatokura
   module FairyGarden
+    def self.const_missing(identifier)
+      Hatokura.const_missing(identifier)
+    end
+
     class FarmVillage < Card
       Name = '農村'
       Cost = 1
