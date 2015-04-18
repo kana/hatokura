@@ -74,6 +74,10 @@ module Hatokura
     # Played abilities make effects when cards are played.
     # Land cards and action cards can have played abilities.
     #
+    # Each card has at most one played ability.  If a played card such as
+    # 鉱山都市 makes several effects, a single played ability is considered to
+    # make those effects.
+    #
     # TODO: But played abilities are just a concept for rulings.  We don't
     # have to use the concept to implement.  It might be better to
     # implement a played ability as a method provided via Playable module.
