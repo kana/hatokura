@@ -35,7 +35,6 @@ module Hatokura
     class NoviceMaid < Card
       Name = '見習い侍女'
       Cost = 2
-      Link = nil
       MainType = :authority
       Rarity = :basic
       AuthorityPoint = -2
@@ -44,7 +43,6 @@ module Hatokura
     class CourtMaid < Card
       Name = '宮廷侍女'
       Cost = 3
-      Link = nil
       MainType = :authority
       Rarity = :basic
       AuthorityPoint = 2
@@ -53,7 +51,6 @@ module Hatokura
     class Congressman < Card
       Name = '議員'
       Cost = 5
-      Link = nil
       MainType = :authority
       Rarity = :basic
       AuthorityPoint = 3
@@ -62,7 +59,6 @@ module Hatokura
     class Duke < Card
       Name = '公爵'
       Cost = 8
-      Link = nil
       MainType = :authority
       Rarity = :basic
       AuthorityPoint = 6
@@ -71,7 +67,6 @@ module Hatokura
     class Curse < Card
       Name = '呪い'
       Cost = 0
-      Link = nil
       MainType = :trouble
       Rarity = :basic
     end
