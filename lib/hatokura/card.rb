@@ -56,6 +56,13 @@ module Hatokura
     # TODO: Add subtype
     # TODO: Add expansion?
 
+    # Original term: N/A
+    # Possible value: One of the following symbols:
+    #   :basic       ベーシック
+    #   :common      コモン
+    #   :rare        レア
+    characteristic :rarity
+
     # Original term: 継承点
     # Possible value: Integer or nil
     characteristic :authority_point
