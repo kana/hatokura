@@ -67,5 +67,13 @@ module Hatokura
       Rarity = :basic
       AuthorityPoint = 6
     end
+
+    class Curse < Card
+      Name = '呪い'
+      Cost = 0
+      Link = nil
+      MainType = :trouble
+      Rarity = :basic
+    end
   end
 end
