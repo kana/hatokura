@@ -9,6 +9,7 @@ module Hatokura
       Cost = 1
       Link = 1
       MainType = :land
+      Rarity = :basic
       AuthorityPoint = -2
       PlayedAbility = Proc.new {[]}  # TODO: List moves.
     end
@@ -18,6 +19,7 @@ module Hatokura
       Cost = 3
       Link = 1
       MainType = :land
+      Rarity = :basic
       PlayedAbility = Proc.new {[]}  # TODO: List moves.
     end
 
@@ -26,6 +28,7 @@ module Hatokura
       Cost = 6
       Link = 1
       MainType = :land
+      Rarity = :basic
       PlayedAbility = Proc.new {[]}  # TODO: List moves.
     end
 
@@ -34,6 +37,7 @@ module Hatokura
       Cost = 2
       Link = nil
       MainType = :authority
+      Rarity = :basic
       AuthorityPoint = -2
     end
 
@@ -42,6 +46,7 @@ module Hatokura
       Cost = 3
       Link = nil
       MainType = :authority
+      Rarity = :basic
       AuthorityPoint = 2
     end
 
@@ -50,6 +55,7 @@ module Hatokura
       Cost = 5
       Link = nil
       MainType = :authority
+      Rarity = :basic
       AuthorityPoint = 3
     end
 
@@ -58,6 +64,7 @@ module Hatokura
       Cost = 8
       Link = nil
       MainType = :authority
+      Rarity = :basic
       AuthorityPoint = 6
     end
   end
